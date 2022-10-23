@@ -7,7 +7,7 @@ import json
 import aiohttp
 import io
 
-TOKEN = 'ODUxOTA1NjE5MTYyMDM4Mjgy.YL_E7w.aGhm68sU-jadgTK10CH0wNMfozY'
+TOKEN = '' # Your token
 
 description = '''An example bot to showcase the discord.ext.commands extension
 module.
