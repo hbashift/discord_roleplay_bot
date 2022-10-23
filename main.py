@@ -81,13 +81,6 @@ async def _bot(ctx):
 
 
 @bot.command()
-async def fuck(ctx, member: discord.Member = None):
-    member = member or ctx.author
-    await ctx.trigger_typing()
-    await ctx.send(f'Иди нахуй, {member.mention}!')
-
-
-@bot.command()
 async def horny(ctx, member: discord.Member = None):
         '''Horny license just for u'''
         member = member or ctx.author
